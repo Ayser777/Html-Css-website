@@ -1,0 +1,645 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+header {
+	background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/slider/header-slider-1.jpg);
+	height: 900px;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+header nav {
+	background-color: rgb(27, 27, 27);
+	padding: 0px 50px;
+	text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 15px;
+}
+
+
+header nav ul li {
+	margin: 0px 30px;
+	display: inline-block;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+} 
+
+header .logo img{
+    width: 120px;
+}
+
+header nav ul li a{
+    color: rgb(231, 231, 3);
+}
+
+header nav ul li a:hover{
+    color: white;
+}
+
+.div1{
+    background-color: rgba(0,0,0,.5);
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.div1 h1{
+    color: yellow;
+    font-size: 50px;
+    position: relative;
+    left: 40%;
+    animation: myDiv 1s ;
+}
+
+@keyframes myDiv{
+    from{
+        left: 105%;
+    }
+    to{
+        left: 40%;
+    }
+}
+
+
+/*section1*/
+
+.sec1{
+    background-color: aliceblue;
+}
+.sec1 .row{
+    background-color: white;
+}
+ .sec1 .row0{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin: 5px;
+   
+}
+    
+.sec1 .row2{
+   
+    padding: 50px;
+  
+}
+
+.sec1 .row0 form input{
+    width: 190px;
+    height: 30px;
+    margin: 5px;
+}
+
+.sec1 .knopka{
+    background-color: black;
+    color: yellow;
+    border: none;
+    padding: 13px 100px;
+    margin-top: 20px;
+}
+
+.sec1 .knopka:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.sec1 .row2 h2{
+    font-size:70px;
+    color: grey;
+}
+
+.sec1 .row2{
+    font-size: 30px;
+    color: grey;
+}
+
+.sec1 .row2 button{
+    background-color: black;
+    color: yellow;
+    padding: 10px 30px;
+    border: none;
+}
+
+.sec1 .row2 button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+/* section2 */
+
+.sec2{
+    padding: 80px;
+    background-color: #151515;
+}
+
+.sec2 h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.sec2 p{
+    text-align: center;
+    color: white;
+    margin-bottom: 65px;
+    font-size: 18px;
+}
+
+.sec2 .row{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sec2 .row div{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.sec2 .icon1{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/air-conditioner-hover.png);
+}
+
+.sec2 .icon1{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 4px 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.sec2 .icon1:hover{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/air-conditioner.png);
+}
+
+.sec2 .icon2{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/bathtub-hover.png);
+}
+
+.sec2 .icon2{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 4px 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.sec2 .icon2:hover{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/bathtub.png);
+}
+
+.sec2 .icon3{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/shower-hover.png);
+}
+
+.sec2 .icon3{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 4px 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.sec2 .icon3:hover{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/shower.png);
+}
+
+.sec2 .icon4{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/television-hover.png);
+}
+
+.sec2 .icon4{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 4px 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.sec2 .icon4:hover{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/television.png);
+}
+
+.sec2 .icon5{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/wifi-hover.png);
+}
+
+.sec2 .icon5{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 4px 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.sec2 .icon5:hover{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/wifi.png);
+}
+
+.sec2 .icon6{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/call-hover.png);
+}
+
+.sec2 .icon6{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 4px 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.sec2 .icon6:hover{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/call.png);
+}
+
+.sec2 .icon7{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/minibar-hover.png);
+}
+
+.sec2 .icon7{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 4px 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.sec2 .icon7:hover{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/minibar.png);
+}
+
+.sec2 .icon8{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/kitchen-hover.png);
+}
+
+.sec2 .icon8{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 0 4px 70px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.sec2 .icon8:hover{
+    background-image: url(https://demo.htmlcodex.com/188/royal-hotel/img/icon/kitchen.png);
+}
+
+.sec2 .row div h3{
+    color: white;
+    text-align: center;
+}
+
+.sec2 .row div p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* section3 */
+
+.sec3{
+    padding: 70px;
+    background-color: white;
+    
+}
+
+.sec3 h2{
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: gray;
+}
+
+.sec3 p{
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    text-align: center;
+}
+
+.sec3 .row{
+    display: flex;
+    justify-content: center;
+}
+
+.sec3 .row div{
+    width: 400px;
+    padding: 5px;
+}
+
+.sec3 .row div img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    transition: 3s;
+}
+
+.sec3 .row div .div1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    background-color: #353535;
+}
+
+.sec3 img:hover .div1{
+    display: block;
+}
+
+
+.sec3 .row div a svg{
+    fill: #666;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.sec3 .row div a svg:hover{
+    fill: yellow;
+}
+
+.sec3 .row div a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.sec3 .row div a:hover{
+    color: yellow;
+}
+
+.sec3 .row div .pp1{
+   margin-top: 10px;
+   font-size: 15px;
+}
+
+.sec3 .row .divv{
+    background-color: black;
+    color: yellow;
+    width: 299px;
+    margin-bottom: 13px;
+}
+
+.sec3 .row .divv h3{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0;
+    background: #222;
+    margin: 0;
+    text-align: center;
+}
+
+.sec3 .row .divv h1{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 15px 0;
+    background: #353535;
+    text-align: center;
+}
+
+.sec3 .row .divv button{
+    padding: 13px 119px;
+    background-color:#151515;
+    color: yellow;
+    border: none;
+    transition: 0.5s;
+}
+
+.sec3 .row .divv button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+/* section3 */
+
+
+.sec4{
+    padding: 60px;
+    background-color: rgb(216, 216, 216);  
+}
+
+.sec4 h2{
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #666;
+}
+
+.sec4 p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    color: #666;
+}
+
+.sec4 .row{
+   margin-top: 30px;
+}
+
+.sec4 .row form input{
+    width: 40%;
+    border: 1px solid #666;
+    height: 30px;
+    line-height: 24px;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #666;
+    font-size: 16px;
+}
+
+.sec4 .row form button{
+    color: yellow;
+    background-color: black;
+    border: none;
+    padding: 20px 30px;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.sec4 .row form button:hover{
+    color: black;
+    background-color: yellow;
+}
+
+/* section5 */
+
+
+.sec5{
+    padding: 50px;
+}
+
+.sec5 h2{
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #666;
+}
+
+.sec5 p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.sec5 .row form .mainDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.sec5 .row form .mainDiv div {
+    width: 420px;
+    padding: 10px;
+}
+.sec5 .row form .mainDiv .btnDiv {
+    width: 860px;
+    padding: 10px;
+
+}
+.sec5 .row form .mainDiv div input{
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    line-height: 24px;
+    padding: 5px 0;
+    background-color: transparent;
+    color: #222;
+    font-size: 16px;
+    font-weight: 200;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.sec5 .row form .mainDiv div label{
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+}
+
+.sec5  button {
+    font-size: 16px;
+    color: yellow;
+    padding: 10px 30px 8px;
+    background: black;
+    border: none;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.sec5 button:hover{
+    color: black;
+    background-color: yellow;
+}
+
+
+/* section6 */
+
+
+.sec6{
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+.sec6 h2{
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #666;
+}
+
+.sec6 p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    color: #666;
+}
+
+.sec6 div a{
+    display: inline-block;
+    padding: 15px 30px;
+    background: black;
+    color: yellow;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.sec6 div a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+footer{
+    padding: 80px;
+    background-color: black;
+}
+
+footer .row{
+    display: flex;
+    justify-content: center;
+}
+
+footer .row div{
+    width: 70px;
+    height: 70px;
+}
+
+footer .row div img{
+   width: 50px;
+}
